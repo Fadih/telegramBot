@@ -24,7 +24,7 @@ public class TelegramBot extends TelegramLongPollingBot  {
     final static Logger logger = Logger.getLogger(TelegramBot.class.getName());
 
     private final String botusername = "fadihusseinbot";
-    private final String botToken = "434166285:AAEVbL0hk9igAWJ7Nl60zVHHpgjNzcikU0s";
+    private final String botToken = "";
     private final String coinmarketcapURL = "https://api.coinmarketcap.com/v1/ticker/?limit=0";
     ArrayList<Coin> coins = new ArrayList<Coin>();
     long chat_id = 0;
